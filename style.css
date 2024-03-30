@@ -1,0 +1,179 @@
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+    color: #020101;
+    background-color:#2b7059;
+}
+
+header {
+    background: #76c0a73b;
+    color: #461515;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav a {
+    color: #ffffff;
+    padding: 0.5rem;
+}
+
+nav a:hover {
+    background: #fff;
+    color: #222;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.logo img{
+height: 9.5rem;
+width:9.5rem;
+border-radius: 54%;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+    margin-left: 3rem;
+}
+
+p {
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.service {
+    margin: 1rem;
+    padding: 1rem;
+    background: #959b75b8;
+    width: calc(33% - 2rem);
+}
+
+.servicesIcon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border: 1px solid y#fafafa;
+    margin-bottom: 1rem;
+}
+.servicesIcon img{
+    border-radius: 100%;
+    margin-top: 5rem;
+    margin-left: 33rem;
+    height: 9rem;
+    width: 9rem;
+}
+
+
+.socials {
+    display: flex;
+    margin: 1rem 0;
+}
+.socials img{
+    /* border-radius: 100%; */
+}
+
+.socials a {
+    color: #7c3434;
+    /* background: #222; */
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    
+}
+
+.socials a:hover {
+    background: #2e1717;
+    color: #222;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input,
+form textarea {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 1px solid #333;
+}
+
+form input:last-child,
+form textarea:last-child {
+    margin-bottom: 0;
+}
+
+form input:focus,
+form textarea:focus {
+    outline: none;
+    box-shadow: 0 0 3px 1px #333;
+}
+
+form textarea {
+    resize: vertical;
+    height: 10rem;
+}
+
+footer {
+    background: #222;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+img{
+    height: 3rem;
+    width: 3rem;
+}
+.im{
+    display: flex;
+}
+.about{
+    display: flex;
+
+}
+#about{
+    margin: 20px;
+
+}
+.con{
+    display: flex;
+    justify-content:space-between;
+}
+.con img{
+    height: 14rem;
+    width: 14rem;
+    margin-right: 42rem;
+    border-radius: 55%;
+    margin-top: 2rem;
+}
+
